@@ -1,0 +1,13 @@
+sqlite3 mydata.db
+
+.tables
+.schema
+
+.headers on
+.mode csv
+.output output.csv
+
+SELECT Year, Name, Games, Batting_Average FROM ATL_batting WHERE Games >= 162 ORDER BY Batting_Average DESC LIMIT 15;
+
+
+
