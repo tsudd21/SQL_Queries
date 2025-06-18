@@ -5,3 +5,8 @@ It encompasses a wealth of statistics that illuminate the team's offensive and d
 
 #!/bin/bash
 kaggle datasets download mattop/atlanta-braves-batting-and-pitching-1966-2023
+
+import a second csv file to SQLite3
+.mode csv
+.headers
+.import ATL_pitching.csv ATL_pitching 
